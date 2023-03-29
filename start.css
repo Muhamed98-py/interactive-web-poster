@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'TT-Medium';
+    src: url('./fonts/TT\ Hoves\ Pro\ Educational\ Medium.ttf');
+}
+
+@font-face {
+    font-family: 'TT-Regular';
+    src: url('./fonts/TT\ Hoves\ Pro\ Educational\ Regular.ttf');
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: ED174B;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.logo {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.red-robot {
+    width: 300px;
+    height: 300px;
+}
+
+.main-title {
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-right: 0;
+    font-family: 'TT-Regular';
+    line-height: 110%;
+    font-size: 90px;
+    color: white;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.button {
+    margin-right: 40px;
+    padding: 15px 40px;
+    height: 20px;
+    border-radius: 8px;
+    font-family: 'TT-Regular';
+    text-decoration: none;
+    background-color: 201A23;
+    color: white;
+}
+
+.milk-robot {
+    width: 350px;
+    height: 350px;
+}
